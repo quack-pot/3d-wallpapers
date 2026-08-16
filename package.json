@@ -1,0 +1,36 @@
+{
+  "name": "3d-wallpapers",
+  "version": "1.0.0",
+  "description": "A collection of 3d wallpapers intended for use with the Lively Wallpapers app.",
+  "keywords": [
+    "wallpaper",
+    "3d",
+    "wallpapers",
+    "lively"
+  ],
+  "homepage": "https://github.com/quack-pot/3d-wallpapers#readme",
+  "bugs": {
+    "url": "https://github.com/quack-pot/3d-wallpapers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quack-pot/3d-wallpapers.git"
+  },
+  "license": "ISC",
+  "author": "Quack Pot",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build"
+  },
+  "devDependencies": {
+    "@types/three": "^0.185.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1",
+    "vite-plugin-singlefile": "^2.3.3"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
+  }
+}
