@@ -6,5 +6,6 @@ export default defineConfig({
     plugins: [viteSingleFile()],
     build: {
         outDir: 'dist',
+        assetsDir: 'assets',
     },
 });
